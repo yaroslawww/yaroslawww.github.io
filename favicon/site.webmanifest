@@ -1,6 +1,6 @@
 {
-    "name": "yaroslawww",
-    "short_name": "yaroslawww",
+    "name": "GCSC",
+    "short_name": "GCSC",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#323a45",
+    "background_color": "#323a45",
     "display": "standalone"
 }
