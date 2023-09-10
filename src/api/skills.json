@@ -1,0 +1,34 @@
+{
+  "title": "General skills",
+  "main": {
+    "laravel": {
+      "title": "Laravel"
+    },
+    "vuejs": {
+      "title": "Vue.js"
+    },
+    "ansible": {
+      "title": "Ansible"
+    },
+    "rest": {
+      "title": "REST Api"
+    },
+    "wp": {
+      "title": "Wordpress"
+    }
+  },
+  "additional": {
+    "db": [
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "cloud": [
+      "AWS",
+      "Hetzner",
+      "Dreamhost",
+      "S3",
+      "RDS"
+    ]
+  }
+}
+

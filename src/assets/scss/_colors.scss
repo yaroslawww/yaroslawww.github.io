@@ -1,0 +1,15 @@
+$blue: #1b284b;
+$blue-dark: #101227;
+$rose: #d56c6a;
+$white: #ffffff;
+$gray: #bfc1c3;
+$gray-dark: #757778;
+
+
+$bg-colors: (
+        laravel: linear-gradient(120deg, #ff2d20 0%, #ff2d20 46%, #fff 100%),
+        vuejs: linear-gradient(120deg, #35495e 0%, #35495e 46%, #41b883 100%),
+        rest: linear-gradient(120deg, #424143 0%, #4d5a2f 46%, #94d60a 100%),
+        ansible: #333333,
+        wp: linear-gradient(120deg, #23282d 0%, #23282d 46%, #0073aa 100%),
+);

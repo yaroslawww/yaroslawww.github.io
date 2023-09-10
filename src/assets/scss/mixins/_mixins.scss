@@ -1,0 +1,69 @@
+@mixin pseudoBlock($height:null, $width: null, $position: null) {
+	content: '';
+	display: block;
+
+	@if $position != null {
+		position: $position;
+	}
+
+	@if $width != null {
+		width: $width;
+	}
+
+	@if $height != null {
+		height: $height;
+	}
+}
+
+@mixin position($position: absolute, $width: null, $height: null, $top: null, $left: null, $bottom: null, $right: null) {
+	@if $position != null {
+		position: $position;
+	}
+
+	@if $width != null {
+		width: $width;
+	}
+
+	@if $height != null {
+		height: $height;
+	}
+
+	@if $top != null {
+		top: $top;
+	}
+
+	@if $left != null {
+		left: $left;
+	}
+
+	@if $bottom != null {
+		bottom: $bottom;
+	}
+
+	@if $right != null {
+		right: $right;
+	}
+}
+
+@mixin flex($align: center, $justify: center, $direction: row, $wrap: wrap) {
+	display: flex;
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+	flex-wrap: $wrap;
+}
+
+@mixin text($size: null, $lineHeight: null, $weight: null) {
+	@if $size != null {
+		font-size: $size;
+	}
+
+	@if $lineHeight != null {
+		line-height: $lineHeight;
+	}
+
+	@if $weight != null {
+		font-weight: $weight;
+	}
+}
+

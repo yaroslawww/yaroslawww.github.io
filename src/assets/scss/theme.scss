@@ -1,0 +1,23 @@
+@import "parts/destyle";
+@import "mixins/mixins";
+@import "colors";
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto&display=swap');
+
+
+.bg_gradient-blue-rose {
+  background-image: linear-gradient(120deg, $blue-dark 0%, $blue 46%, $rose 100%);
+}
+
+.with-circle {
+  &:before {
+    @include pseudoBlock();
+    $side-size: calc(100vh - 2 * 90px);
+    @include position(absolute, $side-size, $side-size, 50%, 50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid rgba($white, 0.2);
+    z-index: 1;
+  }
+}
